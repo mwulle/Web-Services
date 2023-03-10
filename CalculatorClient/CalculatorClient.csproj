@@ -8,6 +8,17 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Protobuf Include="Protos\calc.proto">
+        <GrpcServices>Client</GrpcServices>
+        <Access>Public</Access>
+        <ProtoCompile>True</ProtoCompile>
+        <CompileOutputs>True</CompileOutputs>
+        <OutputDir>obj\Debug/net6.0/</OutputDir>
+        <Generator>MSBuild:Compile</Generator>
+      </Protobuf>
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="Google.Protobuf" Version="3.22.1" />
       <PackageReference Include="Grpc.Net.Client" Version="2.51.0" />
       <PackageReference Include="Grpc.Tools" Version="2.52.0">

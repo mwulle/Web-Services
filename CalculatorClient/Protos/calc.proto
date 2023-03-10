@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "CalculatorClient";
+
+package calc;
+
+service Calculator {
+  rpc Add(AddRequest) returns (SumReply);
+}
+
+message AddRequest {
+  double number1 = 1;
+  double number2 = 2;
+}
+
+message SumReply {
+  double sum = 1;
+}
