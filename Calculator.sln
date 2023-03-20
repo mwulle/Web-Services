@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorGRPCService", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorGRPCClient", "CalculatorGRPCClient\CalculatorGRPCClient.csproj", "{A0B87AEA-F2BE-48F3-ABF3-3E829485CB8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorRESTService", "CalculatorRESTService\CalculatorRESTService.csproj", "{7AD372B7-3D1F-41B0-886B-2226724DCC05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A0B87AEA-F2BE-48F3-ABF3-3E829485CB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0B87AEA-F2BE-48F3-ABF3-3E829485CB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0B87AEA-F2BE-48F3-ABF3-3E829485CB8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD372B7-3D1F-41B0-886B-2226724DCC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD372B7-3D1F-41B0-886B-2226724DCC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD372B7-3D1F-41B0-886B-2226724DCC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD372B7-3D1F-41B0-886B-2226724DCC05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
