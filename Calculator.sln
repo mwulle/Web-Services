@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorGRPCService", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorGRPCClient", "CalculatorGRPCClient\CalculatorGRPCClient.csproj", "{A0B87AEA-F2BE-48F3-ABF3-3E829485CB8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorRESTService", "CalculatorRESTService\CalculatorRESTService.csproj", "{7AD372B7-3D1F-41B0-886B-2226724DCC05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorHTTPService", "CalculatorHTTPService\CalculatorHTTPService.csproj", "{7AD372B7-3D1F-41B0-886B-2226724DCC05}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorSBConsumer", "CalculatorSBConsumer\CalculatorSBConsumer.csproj", "{A2237DE7-951D-48E9-8297-65E71CA87958}"
 EndProject
